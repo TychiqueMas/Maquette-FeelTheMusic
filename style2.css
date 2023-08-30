@@ -5,6 +5,8 @@ body {
     color: white;
     background-color: rgb(73, 70, 70);
     width: 100%;
+    border: solid;
+    border-color: brown;
 }
 
 header {
@@ -12,6 +14,8 @@ header {
     justify-content: space-between;
     margin: 1% 3%;
     margin-bottom: 3%;
+    border: solid;
+    border-color: brown;
 
 }
 
@@ -19,24 +23,34 @@ header section {
     display: flex;
     justify-content: space-around;
     align-self: center;
+    border: solid;
+    border-color: rgb(128, 165, 42);
 }
 
 header div {
+    border: solid;
+    border-color: rgb(46, 165, 42);
     display: flex;
     justify-content: space-around;
     align-self: center;
 }
 
 header img {
+    border: solid;
+    border-color: rgb(65, 42, 165);
     width: 30%;
 }
 
 header section p {
+    border: solid;
+    border-color: rgb(165, 42, 124);
     font-size: 150%;
 
 }
 
 header div p {
+    border: solid;
+    border-color: rgb(65, 42, 165);
     margin: 5%;
 }
 
@@ -51,37 +65,28 @@ a:visited {
 main {
     display: flex;
     justify-content: space-between;
-    align-content: center;
-    margin: 1% 3%;
-}
-
-main img {
-    display: flex;
-    width: 100%;
-    padding: 0;
 }
 
 main section {
-    /* display: flex;
+    display: flex;
     flex-direction: column;
-    justify-content: center; */
-    width: 50%;
+    background-color: rgb(53, 50, 50);
+    padding: 10%;
+    margin: 5%;
+    border-radius: 3%;
 }
 
-main section :first-child {
-    font-size: 70px;
-}
-
-main p {
-    font-size: 30px;
-}
-
-button {
-    background-color: rgb(156, 48, 66);
-    color: white;
-    width: 250px;
-    height: 70px;
-    border-radius: 10px;
-    font-size: 20px;
+input {
     border-style: none;
+    border: solid;
+    border-color: brown;
+    border-radius: 10%;
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    background-color: rgb(49, 47, 47);
 }
