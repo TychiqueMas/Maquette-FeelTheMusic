@@ -76,12 +76,25 @@ main section {
     border-radius: 3%;
 }
 
-input {
-    border-style: none;
-    border: solid;
+#name {
+    background-color: rgb(53, 50, 50);
     border-color: brown;
-    border-radius: 10%;
-    width: 100%;
+    border-radius: 20px;
+    width: 400px;
+    height: 30px;
+}
+
+#comment {
+    background-color: rgb(53, 50, 50);
+    border-color: brown;
+    border-radius: 20px;
+    width: 400px;
+    height: 100px;
+}
+
+button {
+    background-color: blue;
+    color: white;
 }
 
 footer {
